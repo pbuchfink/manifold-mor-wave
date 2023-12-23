@@ -1,0 +1,11 @@
+# python cache folders
+**/__pycache__/
+
+# paraview
+paraview/**
+
+# egg
+**/*.egg-info
+
+# experiments
+experiments/**
