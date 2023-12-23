@@ -1,0 +1,31 @@
+[project]
+name = "manifold-mor-wave"
+version = "1.0.0"
+authors = [
+  { name="Patrick Buchfink" },
+]
+description = "A framework for MOR on manifolds"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "BSD 2-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Linux",
+]
+dependencies = [
+  "numpy==1.20.1",
+  "matplotlib==3.5.2",
+  "scipy==1.6.0",
+  "pyevtk==1.5.0",
+  "ray==1.13.0",
+  "mlflow==1.27.0",
+  "plotly",
+]
+# torch1.7.1+cpu is installed in __init__ of manifold_mor
+
+[project.urls]
+Homepage = "https://github.com/pbuchfink/manifold-mor-wave"
+
+[build-system]
+requires = ["setuptools>=47.0"]
+build-backend = "setuptools.build_meta"
